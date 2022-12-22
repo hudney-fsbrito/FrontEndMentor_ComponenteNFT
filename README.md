@@ -18,7 +18,7 @@ Esta é uma solução para o [desafio "NFT preview card component challenge on F
 
 ### Captura de tela
 
-![](./images/NFTgif.gif)
+![](images/NFTgif.gif)
 
 
 ## Meu processo

@@ -1,0 +1,138 @@
+body {
+    padding: 100px;
+    margin: 0;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    border-radius: 20px;
+
+}
+
+.container {
+    padding: 25px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container-img:hover {
+    background: rgba(0, 255, 247, 0.8) url(images/icon-view.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+
+.foto {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.foto:hover{
+    opacity: 0.6;
+}
+
+h1,
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+h1:hover,
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+}
+
+.paragraph-description {
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.container-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid hsl(215, 32%, 27%);
+}
+
+.data {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+
+.data::before {
+    content: '';
+    display: inline-block;
+    background-image: url(images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+.paragraph-time {
+    display: flex;
+    align-items: center;
+}
+
+.paragraph-time::before {
+    content: '';
+    display: inline-block;
+    background-image: url(images/icon-clock.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.creator {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.creator::before {
+    content: '';
+    display: inline-block;
+    background-image: url(images/image-avatar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    border: .5px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
